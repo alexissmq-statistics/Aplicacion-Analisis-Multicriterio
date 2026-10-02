@@ -370,7 +370,7 @@ st.divider()
 # =======================================================================================
 # PASO 4: ANÁLISIS DE SENSIBILIDAD
 # =======================================================================================
-st.header("4️⃣ Análisis de sensibilidad")
+st.header("4️. Análisis de sensibilidad")
 st.write("Ajusta manualmente el peso de uno o más criterios; el resto se redistribuye proporcionalmente.")
 
 criterios_a_modificar = st.multiselect("Criterios a modificar", criterios)
