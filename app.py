@@ -236,7 +236,7 @@ else:
 # =======================================================================================
 # PASO 1: MATRIZ DE COMPARACIÓN DE CRITERIOS
 # =======================================================================================
-st.header("1️⃣ Comparación pareada de criterios")
+st.header("1. Comparación pareada de criterios")
 
 if matriz_crit is None:  # aún no viene de un CSV -> pedir por formulario
     st.caption(
@@ -270,7 +270,7 @@ st.divider()
 # =======================================================================================
 # PASO 2: MATRICES DE ALTERNATIVAS (según el modo)
 # =======================================================================================
-st.header("2️⃣ Evaluación de alternativas por criterio")
+st.header("2️. Evaluación de alternativas por criterio")
 
 pesos_locales_dict = {}
 
@@ -341,7 +341,7 @@ st.divider()
 # =======================================================================================
 # PASO 3: SÍNTESIS Y RANKING
 # =======================================================================================
-st.header("3️⃣ Síntesis global y ranking")
+st.header("3️. Síntesis global y ranking")
 df_ranking, mejor_opcion = ahp.calcular_sintesis_y_ranking(pesos_criterios, df_prioridades_locales)
 
 st.dataframe(df_ranking.round(4))
@@ -401,7 +401,7 @@ st.divider()
 # =======================================================================================
 # PASO 5: DESCARGA DE RESULTADOS
 # =======================================================================================
-st.header("⬇️ Descargar resultados")
+st.header("Descargar resultados")
 st.write(
     "Descarga el ranking final, la mejor alternativa y (si lo hiciste) el análisis de "
     "sensibilidad, en el formato que prefieras."
