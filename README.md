@@ -20,6 +20,8 @@ La interfaz incluye un botón de reinicio en la barra lateral para limpiar la se
 ├── app.py              # Interfaz principal de Streamlit
 ├── ahp_logic.py         # Lógica del método AHP (matrices, pesos, consistencia)
 ├── requirements.txt     # Dependencias del proyecto
+├── datos_ahp.csv      # Para hacer pruebas por el metodo uno
+├── datos_ahp2.csv      # Para hacer pruebas por el metodo dos
 ```
 
 ## Ejecutar localmente
