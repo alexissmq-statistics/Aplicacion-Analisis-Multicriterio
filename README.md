@@ -1,6 +1,6 @@
 # Aplicación de Análisis Multicriterio (AHP)
 
-Herramienta interactiva construida con Streamlit para la toma de decisiones multicriterio usando el **Proceso Analítico Jerárquico (AHP)**, desarrollada para el curso de Análisis Multicriterio.
+Herramienta interactiva construida con Streamlit para la toma de decisiones multicriterio usando el **Proceso Analítico Jerárquico (AHP)**
 
 🔗 **Aplicación en línea:** [multicriterio-saty.streamlit.app](https://multicriterio-saty.streamlit.app/)
 
@@ -20,8 +20,6 @@ La interfaz incluye un botón de reinicio en la barra lateral para limpiar la se
 ├── app.py              # Interfaz principal de Streamlit
 ├── ahp_logic.py         # Lógica del método AHP (matrices, pesos, consistencia)
 ├── requirements.txt     # Dependencias del proyecto
-├── runtime.txt           # Versión de Python fijada para despliegue (3.11)
-└── run_app.bat            # Launcher para ejecutar la app localmente en Windows
 ```
 
 ## Ejecutar localmente
@@ -47,7 +45,7 @@ En Windows también puedes usar directamente `run_app.bat` para lanzar la app si
 
 ## Despliegue en Streamlit Cloud
 
-La app está desplegada en Streamlit Community Cloud apuntando a este repositorio. La versión de Python usada en producción se fija explícitamente en `runtime.txt` (Python 3.11) para evitar incompatibilidades con versiones muy recientes de Python en las que algunas dependencias científicas (como `matplotlib`, `numpy` o `pyarrow`) aún no tienen soporte estable.
+La app está desplegada en Streamlit Community Cloud apuntando a este repositorio. La versión de Python usada en producción se fija explícitamente (Python 3.11) para evitar incompatibilidades con versiones muy recientes de Python en las que algunas dependencias científicas (como `matplotlib`, `numpy` o `pyarrow`) aún no tienen soporte estable.
 
 ## Metodología
 
